@@ -1,7 +1,7 @@
 # To draw square #
 
-#include&lt;GL/glu.h&gt;
-#include &lt;GL/glut.h&gt;
+#include(GL/glu.h)
+#include(GL/glut.h)
 void MyInit()
 {
 glClearColor(0,0,1,1);
