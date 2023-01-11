@@ -1,3 +1,5 @@
+#to draw two parallel lines#
+
 #include(GL/glu.h)
 #include(GL/glut.h)
 void MyInit()
