@@ -1,6 +1,7 @@
-#include<GL/gl.h>
-#include<GL/glu.h>
-#include<GL/glut.h>
+# To draw a square #
+
+#include(GL/glu.h)
+#include(GL/glut.h)
 void MyInit()
 {
 glClearColor(0,0,1,1);
@@ -24,7 +25,7 @@ glutInit(&amp;c,v);
 glutInitWindowPosition(300,300);
 glutInitWindowSize(400,400);
 glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
-glutCreateWindow("My first window&quot");
+glutCreateWindow(&quot;My first window&quot;);
 MyInit();
 glutDisplayFunc(draw);
 glutMainLoop();
